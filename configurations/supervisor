@@ -1,6 +1,6 @@
 [program:#{app_name}]
 directory=#{app_directory}
-command=#{rvm_path}/#{gemset}/bundle exec rails s -p 80 -b 0.0.0.0
+command=#{rvm_gemset_path}/bundle exec rails s -p 80 -b 0.0.0.0
 autostart=true
 autorestart=true
 environment=RAILS_ENV="#{env}"
