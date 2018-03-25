@@ -1,0 +1,1 @@
+15 3 * * * TZ="#{timezone}" #{rvm_gemset_path}/ruby /#{script_name}.rb >> #{log_path}/#{log_name}.log 2>&1
